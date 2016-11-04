@@ -1,0 +1,74 @@
+﻿@charset "utf-8";
+
+
+
+body {
+	font-size:12px;
+	margin:0;
+	padding:0;
+}
+#conn {
+	FONT-SIZE: 12px;
+	height:360px;
+	WIDTH: 304px;
+	border:0pt solid #D7D7D7;
+}
+#tagss {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 0px;
+	WIDTH: 350px;
+	PADDING-TOP: 0px;
+	HEIGHT: 27px;
+	background:url(../images/tab03.jpg) repeat-x;
+	margin:0;
+}
+#tagss LI {
+	background:url(../images/tab03.jpg) repeat-x;
+	FLOAT: left;
+	text-align:center;
+	LIST-STYLE-TYPE: none;
+	HEIGHT: 27px;
+	border-right:1px solid #d4d4d4;
+	line-height:27px;
+}
+#tagss LI A {
+	PADDING-RIGHT: 10px;
+	PADDING-LEFT: 10px;
+	FLOAT: left;
+	PADDING-BOTTOM: 0px;
+	COLOR: #000;
+	LINE-HEIGHT: 27px;
+	font-weight:bold;
+	PADDING-TOP: 0px;
+	HEIGHT: 27px;
+	TEXT-DECORATION: none
+}
+#tagss LI.emptyTag {
+	BACKGROUND: none transparent scroll repeat 0% 0%;
+	WIDTH: 4px
+}
+#tagss LI.selectTag {
+	POSITION: relative;
+	HEIGHT: 27px
+}
+#tagss LI.selectTag A {
+	background:url(../images/tab01.jpg) repeat-x;
+	COLOR: #1A94B9;                  /*         ####################       字体颜色                    #########################*/
+	font-weight:bold;
+	LINE-HEIGHT: 27px;
+	HEIGHT: 27px
+}
+#tagContent {
+	height:184px;
+}
+.tagContent {
+	DISPLAY: none;
+	WIDTH: 350px;
+	COLOR: #474747;
+	HEIGHT: 550px;
+	padding:5px;
+}
+#tagContent DIV.selectTag {
+	DISPLAY: block
+}

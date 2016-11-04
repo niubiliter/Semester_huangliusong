@@ -1,0 +1,10 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Semester_mother.master" AutoEventWireup="true" CodeFile="Down_sub.master.cs" Inherits="Down_sub" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <div>
+        
+    </div>
+</asp:Content>
+

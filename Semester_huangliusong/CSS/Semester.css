@@ -1,0 +1,391 @@
+/* ul li以横排显示 */
+/* 所有class为menu的div中的ul样式 */
+div.menu ul
+{
+    list-style: none; /* 去掉ul前面的符号 */
+    margin: 0px; /* 与外界元素的距离为0 */
+    padding: 0px; /* 与内部元素的距离为0 */
+}
+/* 所有class为menu的div中的ul中的li样式 */
+div.menu ul li
+{
+    float: left;
+    margin-left: 40px;
+    height: 100%;
+}
+/* 所有class为menu的div中的ul中的a样式(包括尚未点击的和点击过的样式) */
+div.menu ul li a, div.menu ul li a:visited
+{
+    border: 0px #4e667d solid; /* 边框 */
+    color: #010304; /* 文字颜色 */
+    display: block; /* 此元素将显示为块级元素，此元素前后会带有换行符 */ /* 行高 line-height: 1.35em; */ /* 内部填充的距离 padding: 4px 20px; */
+    text-decoration: none; /* 不显示超链接下划线 */
+    white-space: nowrap;
+    margin-top: 0px;
+    font-size: x-large;
+}
+/* 所有class为menu的div中的ul中的a样式(鼠标移动到元素中的样式) */
+div.menu ul li a:hover
+{
+    /* 背景色  background-color:#E9EAEC; background-color:#000000;*/
+    color: #1179CA; /* 文字颜色 */
+    text-decoration: none; /* 不显示超链接下划线 */
+}
+/* 所有class为menu的div中的ul中的a样式(鼠标点击元素时的样式) */
+div.menu ul li a:active
+{
+    /* 背景色  background-color: #465c71;  */
+    color: #000000; /* 文字颜色 */
+    text-decoration: none; /* 不显示超链接下划线 */
+}
+
+
+/* ########################        */
+
+/* ul li以横排显示 */
+/* 所有class为menu的div中的ul样式 */
+div.connect ul
+{
+    list-style: none; /* 去掉ul前面的符号 */
+    margin: 0px; /* 与外界元素的距离为0 */
+    padding: 0px; /* 与内部元素的距离为0 */
+}
+/* 所有class为menu的div中的ul中的li样式 */
+div.connect ul li
+{
+    float: left;
+    margin-left: 40px;
+    height: 100%;
+    font-size: 12px;
+}
+/* 所有class为menu的div中的ul中的a样式(包括尚未点击的和点击过的样式) */
+div.connect ul li a, div.connect ul li a:visited
+{
+    border: 0px #4e667d solid; /* 边框 */
+    color: #010304; /* 文字颜色 */
+    display: block; /* 此元素将显示为块级元素，此元素前后会带有换行符 */ /* 行高 line-height: 1.35em; */ /* 内部填充的距离 padding: 4px 20px; */
+    text-decoration: none; /* 不显示超链接下划线 */
+    white-space: nowrap;
+    margin-top: 0px;
+    font-size: x-large;
+}
+/* 所有class为menu的div中的ul中的a样式(鼠标移动到元素中的样式) */
+div.connect ul li a:hover
+{
+    /* 背景色  background-color:#E9EAEC; background-color:#000000;*/
+    color: #1179CA; /* 文字颜色 */
+    text-decoration: none; /* 不显示超链接下划线 */
+}
+/* 所有class为menu的div中的ul中的a样式(鼠标点击元素时的样式) */
+div.connect ul li a:active
+{
+    /* 背景色  background-color: #465c71;  */
+    color: #000000; /* 文字颜色 */
+    text-decoration: none; /* 不显示超链接下划线 */
+}
+
+
+
+
+/*  #####################           */
+
+
+
+
+
+
+#header /*尾部*/
+{
+    height: 50px;
+    background-color: #FFFFFF;
+    width: 1370px;
+}
+#content /*中部*/
+{
+    width: 1370px;
+    height: 400px;
+}
+#contain /*中部内容*/
+{
+    margin-top: 20px;
+    height: 3000px;
+    width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#contain_left
+{
+    width: 760px;
+    height: 2200px;
+}
+#information_title
+{
+    width: 760px;
+    height: 30px;
+    line-height: 30px;
+}
+#information
+{
+    width: 760px;
+    height: 127px;
+}
+#information_pic
+{
+    width: 220px;
+    height: 127px;
+}
+#information_pic_1
+{
+    width: 200px;
+    height: 107px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#information_content
+{
+    width: 540px;
+    height: 127px;
+}
+#ifor_con1
+{
+    width: 540px;
+    height: 45px;
+    line-height: 45px;
+}
+
+#ifor_con2
+{
+    margin-top: 10px;
+    width: 540px;
+    height: 45px;
+    line-height: 54px;
+}
+#ifor_con3
+{
+    width: 540px;
+    height: 25px;
+    line-height: 25px;
+}
+#contain_right
+{
+    margin-left: 40px;
+    width: 300px;
+    height: 2200px;
+}
+#guide
+{
+    height: 60px;
+    line-height: 60px;
+    width: 300px;
+}
+#ranker
+{
+    width: 300px;
+    height: 730px;
+}
+#ranker_1
+{
+    width: 300px;
+    height: 80px;
+}
+#ranker_title
+{
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+}
+#topics
+{
+    width: 300px;
+    height: 700px;
+}
+#topics_1
+{
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+}
+#topics_title
+{
+    width: 300px;
+    height: 30px;
+}
+#share1
+{
+    width: 300px;
+    height: 30px;
+}
+#friend_link
+{
+    width: 300px;
+    height: 60px;
+    line-height: 30px;
+}
+
+#contain0 /*中部内容*/
+{
+    margin-top: 20px;
+    height: 200px;
+    width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#message1_title
+{
+    margin-top: 20px;
+    height: 20px;
+    width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#message1 /*中部内容*/
+{
+    margin-top: 20px;
+    height: 400px;
+    width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#message1_left
+{
+    width: 550px;
+    height: 400px;
+}
+#message1_left_1
+{
+    width: 550px;
+    height: 200px;
+    background-color: Red;
+}
+#message1_right
+{
+    width: 550px;
+    height: 400px;
+}
+#left_top
+{
+    width: 550px;
+    height: 200px;
+    background-color: Green;
+}
+#left_bottom
+{
+    width: 550px;
+    height: 200px;
+}
+#right_top
+{
+    width: 550px;
+    height: 200px;
+}
+#right_bottom
+{
+    width: 550px;
+    height: 200px;
+    background-color: Red;
+}
+#message2 /*中部内容*/
+{
+    margin-top: 20px;
+    height: 30px;
+    width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#message3 /*中部内容*/
+{
+    height: 150px;
+    width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#footer /*尾部*/
+{
+    margin-top: 40px;
+    height: 100px;
+    width: 1370px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+}
+
+#footer_1
+{
+    width: 1370px;
+    height: 50px;
+    line-height: 50px;
+}
+#footer_2
+{
+    width: 1370px;
+    height: 50px;
+}
+
+
+
+
+/*子内容*/
+
+#nav_1
+{
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 50px;
+}
+#nav_1_1
+{
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+#nav_2
+{
+    line-height: 50px;
+    text-align: center;
+    width: 700px;
+    height: 50px;
+}
+#nav_2_1
+{
+    width: 700px;
+    height: 50px;
+}
+#nav_3
+{
+    line-height: 50px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+}
+
+
+body
+{
+    margin-top: 0px;
+    margin-left: 0px; /* background-color:#EAEAEA;*/
+}
+a
+{
+    text-decoration: none;
+}
+.fl
+{
+    float: left;
+}
+.fr
+{
+    float: right;
+}
+
+
+.menu
+{
+    height: 50px;
+}
+.slider-wrapper
+{
+    width: 900px; /* width: 80%; */
+}

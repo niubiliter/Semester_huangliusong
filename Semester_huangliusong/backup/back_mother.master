@@ -1,0 +1,224 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="back_mother.master.cs"
+    Inherits="backup_back_mother" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <%-- ######  ########   3秒后跳转函数  ########--%>
+    <script type="text/javascript"> </script>
+    <link rel="Shortcut Icon" href="../images/logo.ico" />
+    <%--浏览器选项卡图标--%>
+    <title>C-云信息网管理平台</title>
+    <style type="text/css">
+        body
+        {
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+        .STYLE2
+        {
+            color: #43860c;
+            font-size: 12px;
+        }
+        
+        a:link
+        {
+            font-size: 12px;
+            text-decoration: none;
+            color: #43860c;
+        }
+        a:visited
+        {
+            font-size: 12px;
+            text-decoration: none;
+            color: #43860c;
+        }
+        a:hover
+        {
+            font-size: 12px;
+            text-decoration: none;
+            color: #FF0000;
+        }
+        .style1
+        {
+            height: 26px;
+        }
+        .STYLE1
+        {
+            font-weight: 700;
+        }
+        -- ></style>
+</head>
+<body onload="MM_preloadImages('images/main_26_1.gif','images/main_29_1.gif','images/main_31_1.gif')">
+    <form id="form1" runat="server">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout: fixed;">
+        <tr>
+            <td height="9" style="line-height: 9px; background-image: url('http://localhost:2373/Semester_huangliusong/backup/web/images/main_04.gif')">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="97" height="9" background="images/main_01.gif" style="background-image: url('http://localhost:2373/Semester_huangliusong/backup/web/images/main_01.gif')">
+                            &nbsp;
+                        </td>
+                        <td>
+                            &nbsp;
+                        </td>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td height="47" background="images/main_09.gif" style="background-image: url('http://localhost:2373/Semester_huangliusong/backup/web/images/main_09.gif')">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="38" height="47" background="images/main_06.gif">
+                            &nbsp;
+                        </td>
+                        <td width="59">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td height="29" background="images/main_07.gif">
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="18" background="images/main_14.gif" style="background-image: url('http://localhost:2373/Semester_huangliusong/backup/web/images/main_14.gif')">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout: fixed;">
+                                            <tr>
+                                                <td style="width: 1px;">
+                                                    &nbsp;
+                                                </td>
+                                                <td>
+                                                    <span class="STYLE1">Admin</span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td width="155" background="images/main_08.gif" style="background-image: url('http://localhost:2373/Semester_huangliusong/backup/web/images/main_08.gif')">
+                            &nbsp;
+                        </td>
+                        <td>
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td height="23" valign="bottom">
+                                        <img src="web/images/main_12.gif" width="367" height="23" border="0" usemap="#Map" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td width="200" background="images/main_11.gif" style="background-image: url('http://localhost:2373/Semester_huangliusong/backup/web/images/main_11.gif')">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="11%" height="23">
+                                        &nbsp;
+                                    </td>
+                                    <td width="89%" valign="bottom">
+                                        <span class="STYLE1">当前时间：<%= DateTime.Now.Date.ToShortDateString()%>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td height="5" style="line-height: 5px; background-image: url('http://localhost:2373/Semester_huangliusong/backup/web/images/main_18.gif')">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="180" background="images/main_16.gif" style="line-height: 5px;">
+                            &nbsp;
+                        </td>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <%-- ###########################################################        ###################################--%>
+    <div style="width: 177px; height: 500px; float: left;">
+        <table width="177" height="100%" border="0" cellpadding="0" cellspacing="0" style="border: thin groove #99FF33">
+            <tr>
+                <td valign="top">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout: fixed">
+                        <tr>
+                            <td background="images/main_21.gif" class="style1" style="background-image: url('http://localhost:2373/Semester_huangliusong/backup/web/images/main_21.gif')">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="80" style="background-image: url(images/main_23.gif); background-repeat: repeat-x;">
+                                <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td height="45">
+                                            <div align="center">
+                                                <a href="#">
+                                                    <img src="web/images/main_26.gif" name="Image1" width="40" height="40" border="0"
+                                                        id="Image1" onmouseover="MM_swapImage('Image1','','images/main_26_1.gif',1)"
+                                                        onmouseout="MM_swapImgRestore()" /></a></div>
+                                        </td>
+                                        <td>
+                                            <div align="center">
+                                                <a href="#">
+                                                    <img src="web/images/main_29_1.gif" name="Image2" width="40" height="40" border="0"
+                                                        id="Image2" onmouseover="MM_swapImage('Image2','','images/main_29_1.gif',1)"
+                                                        onmouseout="MM_swapImgRestore()" /></a></div>
+                                        </td>
+                                        <td>
+                                            <div align="center">
+                                                <a href="#">
+                                                    <img src="web/images/main_31.gif" name="Image3" width="40" height="40" border="0"
+                                                        id="Image3" onmouseover="MM_swapImage('Image3','','images/main_31_1.gif',1)"
+                                                        onmouseout="MM_swapImgRestore()" /></a></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td height="25">
+                                            <div align="center" class="STYLE2">
+                                                <a href="#">系统管理</a></div>
+                                        </td>
+                                        <td>
+                                            <div align="center" class="STYLE2">
+                                                <a href="#">日志管理</a></div>
+                                        </td>
+                                        <td>
+                                            <div align="center" class="STYLE2">
+                                                <a href="#">数据分析</a></div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="line-height: 4px; background: url('http://localhost:2373/Semester_huangliusong/backup/web/images/main_38.gif')">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div style="margin-left: 10px; margin-top: 10px; width: 1000px; height: 490px; float: left;
+        border: thin groove #99FF33">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div style="margin-left: 10px; margin-top: 10px; width: 130px; height: 490px; float: left;
+        border: thin groove #99FF33">
+    </div>
+    </form>
+</body>
+</html>
